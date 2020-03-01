@@ -25,7 +25,7 @@ module.exports = (args) => {
     <URL>      ==>  Absolute URL (including https://) of the page (REQUIRED)
                     Wrap URL in quotes, eg. "https://foo.bar"
     
-    --outdir   ==>  Output directory of the exported file(s) (OPTIONAL)
+    --outdir   ==>  Output directory of the exported file (OPTIONAL)
                     Defaults to current directory.
     `
   };
