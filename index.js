@@ -11,7 +11,7 @@ const scriptArgs = handleArgs(args);
 const url = scriptArgs.url;
 const outdir = scriptArgs.outdir ? scriptArgs.outdir : null;
 
-const main = async (url) => {
+(async (url) => {
   try {
     const data = await fetchData(url);
     const text = data.text;
@@ -21,6 +21,4 @@ const main = async (url) => {
   } catch (error) {
     console.error("Hmm, something went wrong 😕",error);
   };
-};
-
-main(url);
+})(url);
