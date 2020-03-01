@@ -1,0 +1,21 @@
+{
+  "name": "first-html",
+  "version": "0.0.1",
+  "description": "A minimal CLI utility that outputs the first packet (1500 bytes) of HTML for a given URL. Use this tool to optimise loading of critical assets within your site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "first",
+    "html",
+    "performance"
+  ],
+  "author": "Adriano Salemme @isAdrisal",
+  "license": "MIT",
+  "bin": "./index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
